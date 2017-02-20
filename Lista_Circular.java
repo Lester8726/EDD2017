@@ -5,6 +5,10 @@
  */
 package practica_1_200819088;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 /**
  *
  * @author PC 1
@@ -56,17 +60,51 @@ public class Lista_Circular {
     }
     
     
-    public void listar(){
+    public void imprimir(){
 
         if (!esVacia()) {
             Nodo aux = inicio;
             int i = 0;
-            System.out.print("-> ");
+           // System.out.print("-> ");
+            try {
+
+             java.io.BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("C:\\grafos\\grafo1.txt"));  
+              		bufferedWriter.append("digraph G");
+			bufferedWriter.flush();
+                        bufferedWriter.newLine();
+                        bufferedWriter.append("{");
+			bufferedWriter.flush();
+                        bufferedWriter.newLine();
             do{
+
+                                
+        if(aux.getSiguiente() != inicio){
                 System.out.print(i + ".( " + aux.getValor() + " )" + " ->  ");
-                aux = aux.getSiguiente();
-                i++;
+                        
+                        bufferedWriter.append(aux.getValor() + "->");
+			bufferedWriter.flush(); 
+                        aux = aux.getSiguiente();
+                        i++;
+                        }else{
+        
+                        System.out.print(i + ".( " + aux.getValor() + " )");
+                        
+                        bufferedWriter.append(aux.getValor()+ "->");
+			bufferedWriter.flush(); 
+                        bufferedWriter.append(aux.getSiguiente().getValor());
+                        bufferedWriter.flush();
+                        aux = aux.getSiguiente();
+                        i++;
+        }   
             }while(aux != inicio);
+                    
+     bufferedWriter.newLine();
+    bufferedWriter.append("}");
+    bufferedWriter.flush();
+                }catch (IOException e) {
+			e.printStackTrace();
+		}
+            
         }
     }
     
