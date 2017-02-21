@@ -50,13 +50,13 @@ public class Tablero extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         numero = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
+        letra1 = new javax.swing.JLabel();
+        letra2 = new javax.swing.JLabel();
+        letra3 = new javax.swing.JLabel();
+        letra4 = new javax.swing.JLabel();
+        letra5 = new javax.swing.JLabel();
+        letra6 = new javax.swing.JLabel();
+        letra7 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jButton2 = new javax.swing.JButton();
@@ -79,6 +79,10 @@ public class Tablero extends javax.swing.JFrame {
         jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
+        jButton11 = new javax.swing.JButton();
+        jTextField2 = new javax.swing.JTextField();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -109,19 +113,19 @@ public class Tablero extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createCompoundBorder(new javax.swing.border.MatteBorder(null), javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED)));
 
-        jLabel5.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
+        letra1.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
 
-        jLabel6.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
+        letra2.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
 
-        jLabel7.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
+        letra3.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
 
-        jLabel8.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
+        letra4.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
 
-        jLabel9.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
+        letra5.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
 
-        jLabel10.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
+        letra6.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
 
-        jLabel11.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
+        letra7.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(51, 102, 255), new java.awt.Color(102, 102, 102)));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -129,19 +133,19 @@ public class Tablero extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(letra1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(letra2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(letra3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(letra4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(letra5, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(letra6, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(letra7, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(28, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -149,13 +153,13 @@ public class Tablero extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 62, Short.MAX_VALUE)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(letra4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(letra3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(letra2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(letra1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(letra5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(letra7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 62, Short.MAX_VALUE)
+                    .addComponent(letra6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -189,6 +193,11 @@ public class Tablero extends javax.swing.JFrame {
         });
 
         jButton7.setText("Lista diccionario");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -251,6 +260,21 @@ public class Tablero extends javax.swing.JFrame {
         getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 180, 120, -1));
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 210, 120, -1));
 
+        jButton11.setText("ingresar jugador");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 240, 120, -1));
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 270, 120, -1));
+
+        jLabel12.setText("jugador");
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 300, -1, -1));
+
+        jLabel13.setText("Puntos");
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 350, -1, -1));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -290,13 +314,26 @@ public class Tablero extends javax.swing.JFrame {
             @Override
             public void mouseExited(MouseEvent e) {}
         };
+
             
+            letra1.setText(cola1.extraer()); 
+            letra2.setText(cola1.extraer()); 
+            letra3.setText(cola1.extraer());
+            letra4.setText(cola1.extraer());
+            letra5.setText(cola1.extraer());
+            letra6.setText(cola1.extraer());
+            letra7.setText(cola1.extraer());
+            
+           // if(letra1.getText()== A1 || ){
+            
+          //  }
+  
     while (z <= Integer.parseInt(numero.getText())) {
     while (r <= Integer.parseInt(numero.getText())) {
    // JButton boton = new JButton( z + "no");
     JLabel boton = new JLabel(z + "no");
-    ImageIcon imagen = new ImageIcon("src\\letras\\a.jpg");
-    ImageIcon imagen2 = new ImageIcon("src\\letras\\b.jpg");
+    ImageIcon imagen = new ImageIcon("src\\Tablero\\fondo (3).jpg");
+    ImageIcon imagen2 = new ImageIcon("src\\Tablero\\fondo (6).jpg");
     if( i == 0){
     boton.setIcon(new ImageIcon(imagen.getImage().getScaledInstance(alto, ancho, Image.SCALE_DEFAULT)));
    // boton.setIcon(new ImageIcon("C:\\Users\\PC 1\\Desktop\\mario.PNG"));
@@ -324,12 +361,119 @@ public class Tablero extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-   
-        cola1.insertar("hh");
-        cola1.insertar("ggg");
-        cola1.insertar("bb");
+int resultado=0;
+char letra;
+boolean es_vocal = false; 
+int a =0, e=0, o=0, i=0, s=0, n=0, l=0, r=0, u=0, t=0, d=0, g=0, c=0, b=0, m=0,p=0,h=0,f=0, v=0, y=0, q=0, j=0, ñ=0, x=0, z=0;
+String res;
+for(int tr = 0 ; tr <=100000;tr++ ){
+resultado=(int)(Math.random()*26+65); 
+letra = (char)resultado;
+es_vocal = ((letra=='A') || (letra=='E') || (letra=='I') || (letra=='O') || (letra=='U'));
+
+if(letra == 'A' && a != 12){
+    System.out.println("Letra obtenida: " + letra);
+    a++;
+    cola1.insertar("a" + a);
+}if(letra == 'E' && e != 12){
+    System.out.println("Letra obtenida: " + letra);
+    e++;
+    cola1.insertar("e" + e);
+}if(letra == 'O' && o != 9){
+    System.out.println("Letra obtenida: " + letra);
+    o++;
+    cola1.insertar("o" + o);
+}if(letra == 'I' && i != 6){
+    System.out.println("Letra obtenida: " + letra);
+    i++;
+    cola1.insertar("i" + i);
+}if(letra == 'S' && s != 6){
+    System.out.println("Letra obtenida: " + letra);
+    s++;
+    cola1.insertar("s" + s);
+}if(letra == 'N' && n != 5){
+    System.out.println("Letra obtenida: " + letra);
+    n++;
+    cola1.insertar("n" + n);
+}if(letra == 'L' && l != 4){
+    System.out.println("Letra obtenida: " + letra);
+    l++;
+    cola1.insertar("l" + l);
+}if(letra == 'R' && r != 5){
+    System.out.println("Letra obtenida: " + letra);
+    r++;
+    cola1.insertar("r" + r);
+}if(letra == 'U' && u != 5){
+    System.out.println("Letra obtenida: " + letra);
+    u++;
+    cola1.insertar("u" + u);
+}if(letra == 'T' && t != 4){
+    System.out.println("Letra obtenida: " + letra);
+    t++;
+    cola1.insertar("t" + t);
+}if(letra == 'D' && d != 5){
+    System.out.println("Letra obtenida: " + letra);
+    d++;
+    cola1.insertar("d" + d);
+}if(letra == 'G' && g != 2){
+    System.out.println("Letra obtenida: " + letra);
+    g++;
+    cola1.insertar("g" + g);
+}if(letra == 'C' && c != 4){
+    System.out.println("Letra obtenida: " + letra);
+    c++;
+    cola1.insertar("c" + c);
+}if(letra == 'B' && b != 2){
+    System.out.println("Letra obtenida: " + letra);
+    b++;
+    cola1.insertar("b" + b);
+}if(letra == 'M' && m != 2){
+    System.out.println("Letra obtenida: " + letra);
+    m++;
+    cola1.insertar("m" + m);
+}if(letra == 'P' && p != 2){
+    System.out.println("Letra obtenida: " + letra);
+    p++;
+    cola1.insertar("p" + p);
+}if(letra == 'H' && h != 2){
+    System.out.println("Letra obtenida: " + letra);
+    h++;
+    cola1.insertar("h" + h);
+}if(letra == 'F' && f != 1){
+    System.out.println("Letra obtenida: " + letra);
+    f++;
+    cola1.insertar("f" + f);
+}if(letra == 'V' && v != 1){
+    System.out.println("Letra obtenida: " + letra);
+    v++;
+    cola1.insertar("v" + v);
+}if(letra == 'y' && y != 1){
+    System.out.println("Letra obtenida: " + letra);
+    y++;
+    cola1.insertar("y" + y);
+}if(letra == 'Q' && q != 1){
+    System.out.println("Letra obtenida: " + letra);
+    q++;
+    cola1.insertar("q" + q);
+}if(letra == 'J' && j != 1){
+    System.out.println("Letra obtenida: " + letra);
+    j++;
+    cola1.insertar("j" + j);
+}if(letra == 'W' && ñ != 1){
+    System.out.println("Letra obtenida: " + 'Ñ');
+    ñ++;
+    cola1.insertar("ñ" + ñ);
+}if(letra == 'X' && x != 1){
+    System.out.println("Letra obtenida: " + letra);
+    x++;
+    cola1.insertar("x" + x);
+}if(letra == 'Z' && z != 1){
+    System.out.println("Letra obtenida: " + letra);
+    z++;
+    cola1.insertar("z" + z);
+}}
         cola1.imprimir();
-        System.out.println("Extraemos uno de la cola:"+cola1.extraer());
+        //System.out.println("Extraemos uno de la cola:"+cola1.extraer());
         
             try {
       
@@ -404,8 +548,83 @@ Fichas_act.agregarAlInicio("pp");
 Fichas_act.agregarAlInicio("yy");
 Fichas_act.imprimir();
 
+            try {
+      
+      String dotPath = "C:\\Users\\PC 1\\Desktop\\release\\bin\\dot.exe";
+      
+      String fileInputPath = "src\\grafos\\grafo1.txt";
+      String fileOutputPath = "src\\grafos\\grafo1.jpg";
+      
+      String tParam = "-Tjpg";
+      String tOParam = "-o";
+        
+      String[] cmd = new String[5];
+      cmd[0] = dotPath;
+      cmd[1] = tParam;
+      cmd[2] = fileInputPath;
+      cmd[3] = tOParam;
+      cmd[4] = fileOutputPath;
+                  
+      Runtime rt = Runtime.getRuntime();
+      
+      rt.exec( cmd );
+      
+    } catch (Exception ex) {
+      ex.printStackTrace();
+    } finally {
+    }   
+        ImageIcon imagen3 = new ImageIcon("src\\grafos\\grafo1.jpg");
+        jLabel1.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(jLabel1.getWidth(), jLabel1.getHeight(), Image.SCALE_DEFAULT)));    
+        this.repaint();
+
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+Diccionario.agregarAlInicio("gy");
+Diccionario.agregarAlInicio("io");
+Diccionario.agregarAlInicio("tr");
+Diccionario.agregarAlInicio("cv");
+Diccionario.imprimir();
+
+            try {
+      
+      String dotPath = "C:\\Users\\PC 1\\Desktop\\release\\bin\\dot.exe";
+      
+      String fileInputPath = "src\\grafos\\grafo1.txt";
+      String fileOutputPath = "src\\grafos\\grafo1.jpg";
+      
+      String tParam = "-Tjpg";
+      String tOParam = "-o";
+        
+      String[] cmd = new String[5];
+      cmd[0] = dotPath;
+      cmd[1] = tParam;
+      cmd[2] = fileInputPath;
+      cmd[3] = tOParam;
+      cmd[4] = fileOutputPath;
+                  
+      Runtime rt = Runtime.getRuntime();
+      
+      rt.exec( cmd );
+      
+    } catch (Exception ex) {
+      ex.printStackTrace();
+    } finally {
+    }   
+        ImageIcon imagen3 = new ImageIcon("src\\grafos\\grafo1.jpg");
+        jLabel1.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(jLabel1.getWidth(), jLabel1.getHeight(), Image.SCALE_DEFAULT)));    
+        this.repaint();
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+   String i=null;
+   i=jTextField2.getText();
+   
+        
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton11ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -445,6 +664,7 @@ Fichas_act.imprimir();
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -461,20 +681,23 @@ Fichas_act.imprimir();
     private javax.swing.JCheckBox jCheckBox6;
     private javax.swing.JCheckBox jCheckBox7;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JLabel letra1;
+    private javax.swing.JLabel letra2;
+    private javax.swing.JLabel letra3;
+    private javax.swing.JLabel letra4;
+    private javax.swing.JLabel letra5;
+    private javax.swing.JLabel letra6;
+    private javax.swing.JLabel letra7;
     private javax.swing.JTextField numero;
     // End of variables declaration//GEN-END:variables
 }

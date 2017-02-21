@@ -44,6 +44,51 @@ public class Lista_Simple {
         }
         tamanio++;
     }
+        public boolean buscar(String referencia){
+        Nodo aux = inicio;
+        boolean encontrado = false;
+        while(aux != null && encontrado != true){
+            if (referencia == aux.getValor()){
+                encontrado = true;
+            }
+            else{
+                aux = aux.getSiguiente();
+            }
+        }
+        return encontrado;
+    }
+        
+        public void removerPorReferencia(String referencia){
+        if (buscar(referencia)) {
+            if (inicio.getValor() == referencia) {
+                inicio = inicio.getSiguiente();
+            } else{
+                Nodo aux = inicio;
+                while(aux.getSiguiente().getValor() != referencia){
+                    aux = aux.getSiguiente();
+                }
+                Nodo siguiente = aux.getSiguiente().getSiguiente();
+                aux.setSiguiente(siguiente);  
+            }
+            tamanio--;
+        }
+    }
+        
+        
+        public void editarPorPosicion(int posicion , String valor){
+        if(posicion>=0 && posicion<tamanio){
+            if(posicion == 0){
+                inicio.setValor(valor);
+            }
+            else{
+                Nodo aux = inicio;
+                for (int i = 0; i < posicion; i++) {
+                    aux = aux.getSiguiente();
+                }
+                aux.setValor(valor);
+            }
+        }
+    }
     
     public void agregarAlInicio(String Dato){
         Nodo nuevo = new Nodo();
