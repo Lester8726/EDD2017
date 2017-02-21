@@ -72,7 +72,7 @@ public class Cola {
         System.out.println("Listado de todos los elementos de la cola.");
                        try {
 
-             java.io.BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("C:\\grafos\\grafo1.txt"));  
+             java.io.BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src\\grafos\\grafo1.txt"));  
               		bufferedWriter.append("digraph G");
 			bufferedWriter.flush();
                         bufferedWriter.newLine();

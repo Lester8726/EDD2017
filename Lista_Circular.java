@@ -68,7 +68,7 @@ public class Lista_Circular {
            // System.out.print("-> ");
             try {
 
-             java.io.BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("C:\\grafos\\grafo1.txt"));  
+             java.io.BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src\\grafos\\grafo1.txt"));  
               		bufferedWriter.append("digraph G");
 			bufferedWriter.flush();
                         bufferedWriter.newLine();

@@ -41,6 +41,19 @@ public class Practica_1_200819088 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        Tablero tab = new Tablero();
+        tab.setVisible(true);
+        
+        
+        
+        Matriz ma=new Matriz();
+        ma.cargar();
+        ma.imprimir();
+        ma.imprimirUltimaFila();
+        
+        
+        
 System.out.println("Hola Mundo");
 
 
@@ -67,8 +80,8 @@ oo.imprimir();;
       
       String dotPath = "C:\\Users\\PC 1\\Desktop\\release\\bin\\dot.exe";
       
-      String fileInputPath = "C:\\grafos\\grafo1.txt";
-      String fileOutputPath = "C:\\grafos\\grafo1.jpg";
+      String fileInputPath = "src\\grafos\\grafo1.txt";
+      String fileOutputPath = "src\\grafos\\grafo1.jpg";
       
       String tParam = "-Tjpg";
       String tOParam = "-o";
