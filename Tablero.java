@@ -316,17 +316,7 @@ public class Tablero extends javax.swing.JFrame {
         };
 
             
-            letra1.setText(cola1.extraer()); 
-            letra2.setText(cola1.extraer()); 
-            letra3.setText(cola1.extraer());
-            letra4.setText(cola1.extraer());
-            letra5.setText(cola1.extraer());
-            letra6.setText(cola1.extraer());
-            letra7.setText(cola1.extraer());
-            
-           // if(letra1.getText()== A1 || ){
-            
-          //  }
+
   
     while (z <= Integer.parseInt(numero.getText())) {
     while (r <= Integer.parseInt(numero.getText())) {
@@ -356,8 +346,125 @@ public class Tablero extends javax.swing.JFrame {
     z++;
     y=0;
     r=1;
- }
+    }
+    String ltr1, ltr2, ltr3,ltr4,ltr5, ltr6,ltr7;
+    ltr1=cola1.extraer();
+    ltr2=cola1.extraer();
+    ltr3=cola1.extraer();
+    ltr4=cola1.extraer();
+    ltr5=cola1.extraer();
+    ltr6=cola1.extraer();
+    ltr7=cola1.extraer();
+            letra1.setText(ltr1); 
+            letra2.setText(ltr2); 
+            letra3.setText(ltr3);
+            letra4.setText(ltr4);
+            letra5.setText(ltr5);
+            letra6.setText(ltr6);
+            letra7.setText(ltr7);
+            if(ltr1.equals("a1") || ltr1.equals("a2") ||ltr1.equals("a3") ||ltr1.equals("a4") ||ltr1.equals("a5") || ltr1.equals("a6") || ltr1.equals("a7") || ltr1.equals("a8") ||ltr1.equals("a9") ||ltr1.equals("a10") ||ltr1.equals("a11") ||ltr1.equals("a12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\a.jpg");
+            letra1.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            letra1.addMouseListener(ml);
+            letra1.setTransferHandler(new TransferHandler("icon"));
+            if(ltr2.equals("a1") || ltr2.equals("a2") ||ltr2.equals("a3") ||ltr2.equals("a4") ||ltr2.equals("a5") || ltr2.equals("a6") || ltr2.equals("a7") || ltr2.equals("a8") ||ltr2.equals("a9") ||ltr2.equals("a10") ||ltr2.equals("a11") ||ltr2.equals("a12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\a.jpg");
+            letra2.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+                        letra2.addMouseListener(ml);
+            letra2.setTransferHandler(new TransferHandler("icon"));
+            if(ltr3.equals("a1") || ltr3.equals("a2") ||ltr3.equals("a3") ||ltr3.equals("a4") ||ltr3.equals("a5") || ltr3.equals("a6") || ltr3.equals("a7") || ltr3.equals("a8") ||ltr3.equals("a9") ||ltr3.equals("a10") ||ltr3.equals("a11") ||ltr3.equals("a12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\a.jpg");
+            letra3.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            letra3.addMouseListener(ml);
+            letra3.setTransferHandler(new TransferHandler("icon"));
+            if(ltr4.equals("a1") || ltr4.equals("a2") ||ltr4.equals("a3") ||ltr4.equals("a4") ||ltr4.equals("a5") || ltr4.equals("a6") || ltr4.equals("a7") || ltr4.equals("a8") ||ltr4.equals("a9") ||ltr4.equals("a10") ||ltr4.equals("a11") ||ltr4.equals("a12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\a.jpg");
+            letra4.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+                        letra4.addMouseListener(ml);
+            letra4.setTransferHandler(new TransferHandler("icon"));
+            if(ltr5.equals("a1") || ltr5.equals("a2") ||ltr5.equals("a3") ||ltr5.equals("a4") ||ltr5.equals("a5") || ltr5.equals("a6") || ltr5.equals("a7") || ltr5.equals("a8") ||ltr5.equals("a9") ||ltr5.equals("a10") ||ltr5.equals("a11") ||ltr5.equals("a12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\a.jpg");
+            letra5.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            letra5.addMouseListener(ml);
+            letra5.setTransferHandler(new TransferHandler("icon"));
+            if(ltr6.equals("a1") || ltr6.equals("a2") ||ltr6.equals("a3") ||ltr6.equals("a4") ||ltr6.equals("a5") || ltr6.equals("a6") || ltr6.equals("a7") || ltr6.equals("a8") ||ltr6.equals("a9") ||ltr6.equals("a10") ||ltr6.equals("a11") ||ltr6.equals("a12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\a.jpg");
+            letra6.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            letra6.addMouseListener(ml);
+            letra6.setTransferHandler(new TransferHandler("icon"));
+             if(ltr7.equals("a1") || ltr7.equals("a2") ||ltr7.equals("a3") ||ltr7.equals("a4") ||ltr7.equals("a5") || ltr7.equals("a6") || ltr7.equals("a7") || ltr7.equals("a8") ||ltr7.equals("a9") ||ltr7.equals("a10") ||ltr7.equals("a11") ||ltr7.equals("a12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\a.jpg");
+            letra7.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            letra7.addMouseListener(ml);
+            letra7.setTransferHandler(new TransferHandler("icon"));
+            
+             if(ltr1.equals("e1") || ltr1.equals("e2") ||ltr1.equals("e3") ||ltr1.equals("e4") ||ltr1.equals("e5") || ltr1.equals("e6") || ltr1.equals("e7") || ltr1.equals("e8") ||ltr1.equals("e9") ||ltr1.equals("e10") ||ltr1.equals("e11") ||ltr1.equals("e12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\e.jpg");
+            letra1.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr2.equals("e1") || ltr2.equals("e2") ||ltr2.equals("e3") ||ltr2.equals("e4") ||ltr2.equals("e5") || ltr2.equals("e6") || ltr2.equals("e7") || ltr2.equals("e8") ||ltr2.equals("e9") ||ltr2.equals("e10") ||ltr2.equals("e11") ||ltr2.equals("e12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\e.jpg");
+            letra2.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr3.equals("e1") || ltr3.equals("e2") ||ltr3.equals("e3") ||ltr3.equals("e4") ||ltr3.equals("e5") || ltr3.equals("e6") || ltr3.equals("e7") || ltr3.equals("e8") ||ltr3.equals("e9") ||ltr3.equals("e10") ||ltr3.equals("e11") ||ltr3.equals("e12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\e.jpg");
+            letra3.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr4.equals("e1") || ltr4.equals("e2") ||ltr4.equals("e3") ||ltr4.equals("e4") ||ltr4.equals("e5") || ltr4.equals("e6") || ltr4.equals("e7") || ltr4.equals("e8") ||ltr4.equals("e9") ||ltr4.equals("e10") ||ltr4.equals("e11") ||ltr4.equals("e12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\e.jpg");
+            letra4.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr5.equals("e1") || ltr5.equals("e2") ||ltr5.equals("e3") ||ltr5.equals("e4") ||ltr5.equals("e5") || ltr5.equals("e6") || ltr5.equals("e7") || ltr5.equals("e8") ||ltr5.equals("e9") ||ltr5.equals("e10") ||ltr5.equals("e11") ||ltr5.equals("e12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\e.jpg");
+            letra5.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr6.equals("e1") || ltr6.equals("e2") ||ltr6.equals("e3") ||ltr6.equals("e4") ||ltr6.equals("e5") || ltr6.equals("e6") || ltr6.equals("e7") || ltr6.equals("e8") ||ltr6.equals("e9") ||ltr6.equals("e10") ||ltr6.equals("e11") ||ltr6.equals("e12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\e.jpg");
+            letra6.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+             if(ltr7.equals("e1") || ltr7.equals("e2") ||ltr7.equals("e3") ||ltr7.equals("e4") ||ltr7.equals("e5") || ltr7.equals("e6") || ltr7.equals("e7") || ltr7.equals("e8") ||ltr7.equals("e9") ||ltr7.equals("e10") ||ltr7.equals("e11") ||ltr7.equals("e12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\e.jpg");
+            letra7.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+             
+             
+             if(ltr1.equals("o1") || ltr1.equals("o2") ||ltr1.equals("o3") ||ltr1.equals("o4") ||ltr1.equals("o5") || ltr1.equals("o6") || ltr1.equals("o7") || ltr1.equals("o8") ||ltr1.equals("o9") ||ltr1.equals("o10") ||ltr1.equals("o11") ||ltr1.equals("o12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\o.jpg");
+            letra1.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr2.equals("o1") || ltr2.equals("o2") ||ltr2.equals("o3") ||ltr2.equals("o4") ||ltr2.equals("o5") || ltr2.equals("o6") || ltr2.equals("o7") || ltr2.equals("o8") ||ltr2.equals("o9") ||ltr2.equals("o10") ||ltr2.equals("o11") ||ltr2.equals("o12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\o.jpg");
+            letra2.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr3.equals("o1") || ltr3.equals("o2") ||ltr3.equals("o3") ||ltr3.equals("o4") ||ltr3.equals("o5") || ltr3.equals("o6") || ltr3.equals("o7") || ltr3.equals("o8") ||ltr3.equals("o9") ||ltr3.equals("o10") ||ltr3.equals("o11") ||ltr3.equals("o12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\o.jpg");
+            letra3.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr4.equals("o1") || ltr4.equals("o2") ||ltr4.equals("o3") ||ltr4.equals("o4") ||ltr4.equals("o5") || ltr4.equals("o6") || ltr4.equals("o7") || ltr4.equals("o8") ||ltr4.equals("o9") ||ltr4.equals("o10") ||ltr4.equals("o11") ||ltr4.equals("o12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\o.jpg");
+            letra4.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr5.equals("o1") || ltr5.equals("o2") ||ltr5.equals("o3") ||ltr5.equals("o4") ||ltr5.equals("o5") || ltr5.equals("o6") || ltr5.equals("o7") || ltr5.equals("o8") ||ltr5.equals("o9") ||ltr5.equals("o10") ||ltr5.equals("o11") ||ltr5.equals("o12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\o.jpg");
+            letra5.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr6.equals("o1") || ltr6.equals("o2") ||ltr6.equals("o3") ||ltr6.equals("o4") ||ltr6.equals("o5") || ltr6.equals("o6") || ltr6.equals("o7") || ltr6.equals("o8") ||ltr6.equals("o9") ||ltr6.equals("o10") ||ltr6.equals("o11") ||ltr6.equals("o12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\o.jpg");
+            letra6.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+             if(ltr7.equals("o1") || ltr7.equals("o2") ||ltr7.equals("o3") ||ltr7.equals("o4") ||ltr7.equals("o5") || ltr7.equals("o6") || ltr7.equals("o7") || ltr7.equals("o8") ||ltr7.equals("o9") ||ltr7.equals("o10") ||ltr7.equals("o11") ||ltr7.equals("o12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\o.jpg");
+            letra7.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
 
+            if(ltr1.equals("i1") || ltr1.equals("i2") ||ltr1.equals("i3") ||ltr1.equals("i4") ||ltr1.equals("i5") || ltr1.equals("i6") || ltr1.equals("i7") || ltr1.equals("i8") ||ltr1.equals("i9") ||ltr1.equals("i10") ||ltr1.equals("i11") ||ltr1.equals("i12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\i.jpg");
+            letra1.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr2.equals("i1") || ltr2.equals("i2") ||ltr2.equals("i3") ||ltr2.equals("i4") ||ltr2.equals("i5") || ltr2.equals("i6") || ltr2.equals("i7") || ltr2.equals("i8") ||ltr2.equals("i9") ||ltr2.equals("i10") ||ltr2.equals("i11") ||ltr2.equals("i12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\i.jpg");
+            letra2.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr3.equals("i1") || ltr3.equals("i2") ||ltr3.equals("i3") ||ltr3.equals("i4") ||ltr3.equals("i5") || ltr3.equals("i6") || ltr3.equals("i7") || ltr3.equals("i8") ||ltr3.equals("i9") ||ltr3.equals("i10") ||ltr3.equals("i11") ||ltr3.equals("i12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\i.jpg");
+            letra3.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr4.equals("i1") || ltr4.equals("i2") ||ltr4.equals("i3") ||ltr4.equals("i4") ||ltr4.equals("i5") || ltr4.equals("i6") || ltr4.equals("i7") || ltr4.equals("i8") ||ltr4.equals("i9") ||ltr4.equals("i10") ||ltr4.equals("i11") ||ltr4.equals("i12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\i.jpg");
+            letra4.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr5.equals("i1") || ltr5.equals("i2") ||ltr5.equals("i3") ||ltr5.equals("i4") ||ltr5.equals("i5") || ltr5.equals("i6") || ltr5.equals("i7") || ltr5.equals("i8") ||ltr5.equals("i9") ||ltr5.equals("i10") ||ltr5.equals("i11") ||ltr5.equals("i12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\i.jpg");
+            letra5.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+            if(ltr6.equals("i1") || ltr6.equals("i2") ||ltr6.equals("i3") ||ltr6.equals("i4") ||ltr6.equals("i5") || ltr6.equals("i6") || ltr6.equals("i7") || ltr6.equals("i8") ||ltr6.equals("i9") ||ltr6.equals("i10") ||ltr6.equals("i11") ||ltr6.equals("i12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\i.jpg");
+            letra6.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+             if(ltr7.equals("i1") || ltr7.equals("i2") ||ltr7.equals("i3") ||ltr7.equals("i4") ||ltr7.equals("i5") || ltr7.equals("i6") || ltr7.equals("i7") || ltr7.equals("i8") ||ltr7.equals("i9") ||ltr7.equals("i10") ||ltr7.equals("i11") ||ltr7.equals("i12") ){
+            ImageIcon imagen3 = new ImageIcon("src\\letras\\i.jpg");
+            letra7.setIcon(new ImageIcon(imagen3.getImage().getScaledInstance(letra3.getWidth(), letra3.getHeight(), Image.SCALE_DEFAULT)));}
+                 
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
